@@ -86,9 +86,8 @@
             </div>
         </nav>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
         </asp:ContentPlaceHolder>
-     <div id="footerDiv" class="container-fluid" style="height: 400px; background-color: rgba(36, 35, 40, 0.9); padding: 25px 80px; color: goldenrod;">
+        <div id="footerDiv" class="container-fluid" style="height: 400px; background-color: rgba(36, 35, 40, 0.9); padding: 25px 80px; color: goldenrod;">
             <div class="row">
                 <div class="col-md-4">
                     <h4 style="color: white;">ABS ENTERPRISE SOFTWARE
@@ -98,8 +97,8 @@
                         <ul>
                             <li>HRM</li>
                             <li>Annuity</li>
-                            <li>Under Writing</li>
-                            <li>Aministration</li>
+                            <li>Underwriting</li>
+                            <li>Administration</li>
                             <li>Document Manager</li>
                             <li>Customer Manager</li>
                             <li>Procurement</li>
@@ -112,12 +111,12 @@
                     <br />
                     <p>
                         <ul>
-                            <li> Software Development </li>
-                            <li> Consultancy Services </li>
-                            <li> Training </li>
-                            <li> Hardware Maintenance </li>
-                            <li> Systems Audit</li>
-                            
+                            <li>Software Development </li>
+                            <li>Consultancy Services </li>
+                            <li>Training </li>
+                            <li>Hardware Maintenance </li>
+                            <li>Systems Audit</li>
+
                         </ul>
                     </p>
                 </div>
@@ -126,8 +125,9 @@
                     </h4>
                     <br />
                     <p>
-                        <span>8th Floor Custodian House,<br />
-                            16, Commercial Avenuebr
+                        <span>8th Floor Custodian House,
+                            <br />
+                            16, Commercial Avenue
                             <br />
                             Sabo, Yaba - Lagos.<br />
                             Nigeria.
@@ -146,8 +146,9 @@
                         <br />
                         <br />
                         <span>
-                            <a title="Send Us A Mail" href="mailto:contact@afrikcomputers.com" target="_blank" style="color: goldenrod; text-decoration: none;">
-                                <i class="glyphicon glyphicon-envelope"></i>&nbsp; contact@afrikcomputers.com 
+                            <%--mailto:info@afrikcomputers.com--%>
+                            <a title="Send Us A Mail" href="#" target="_blank" style="color: goldenrod; text-decoration: none;">
+                                <i class="glyphicon glyphicon-envelope"></i>&nbsp; info@afrikcomputers.com 
                             </a>
                         </span>
 
@@ -171,7 +172,7 @@
 
                     <ul class="nav navbar-nav navbar-right" style="margin-right: 60px;">
                         <li class="navLi img-rounded"><a href="Default.aspx">HOME</a></li>
-                        <li class="navLi img-rounded"><a href="aboutus.aspx" >ABOUT US</a></li>
+                        <li class="navLi img-rounded"><a href="aboutus.aspx">ABOUT US</a></li>
                         <li class="navLi img-rounded"><a href="products.aspx">PRODUCTS</a></li>
                         <li class="navLi img-rounded"><a href="#">CLIENTS</a></li>
                         <li class="navLi img-rounded"><a href="#">CAREER</a></li>
