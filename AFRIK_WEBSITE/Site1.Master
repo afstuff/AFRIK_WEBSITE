@@ -1,0 +1,189 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="AFRIK_WEBSITE.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Afrik ::Index</title>
+    <link href="http://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/StyleSheet1.css" rel="stylesheet" />
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/JavaScript1.js"></script>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 topHeaderDiv">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 pull-left">
+                        <div class="social-icons">
+                            <span><a title="Facebook" href="#" target="_blank">
+                                <img src="images/facebook1.png" class="soacialLogo" />
+                            </a></span>
+                            <span><a title="Google Plus" href="#" target="_blank">
+                                <img src="images/google116.png" class="soacialLogo" />
+                            </a></span>
+                            <span><a title="Twitter" href="#" target="_blank">
+                                <img src="images/logo95.png" class="soacialLogo" />
+                            </a></span>
+                            <span><a title="Linkedin" href="#" target="_blank">
+                                <img src="images/linkedin10.png" class="soacialLogo" />
+                            </a></span>
+                            <span><a title="Skype" href="skype:#">
+                                <img src="images/socialnetwork248.png" class="soacialLogo" />
+                            </a></span>
+                            <%-- <span class="last"><a href="#" data-original-title="BBM PIN: #"></a></span>--%>
+                        </div>
+                        <!-- end social icons -->
+
+                    </div>
+                    <div class="col-lg-6 col-md-5 col-sm-6 col-xs-12 pull-right small">
+                        <div class="social-icons">
+                            <span><a title="Call Us" href="#" target="_blank">&nbsp;
+                                <i class="glyphicon glyphicon-phone"></i>+234-802-320-6554 &nbsp;&nbsp;&nbsp;&nbsp; +234-802-458-2289
+                            &nbsp;</a></span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <span><a title="Send Us A Mail" href="#" target="_blank">&nbsp;&nbsp;&nbsp;
+                               &nbsp; <i class="glyphicon glyphicon-envelope"></i>contact@afrikcomputers.com 
+                            &nbsp;</a></span>
+
+                        </div>
+                        <!-- end social icons -->
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <nav class="navbar navbar-default" id="navbarTop" style="background-color: goldenrod !important; margin-bottom: 0 !important; border: none !important; border-radius: 0 !important;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#" style="margin-left: 30px; height: 100px!important;">
+                        <img src="images/logo.fw1.fw.png" />
+                    </a>
+                </div>
+                <div style="height: 100px !important; padding: 25px;">
+                    <ul class="nav navbar-nav navbar-right" style="margin-right: 30px;">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;Admin</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon glyphicon-envelope"></span>&nbsp;Mail</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right" style="margin-right: 60px;">
+                        <li class="navLi img-rounded"><a href="Default.aspx">HOME</a></li>
+                        <li class="navLi img-rounded"><a href="aboutus.aspx">ABOUT US</a></li>
+                        <li class="navLi img-rounded"><a href="products.aspx">PRODUCTS</a></li>
+                        <li class="navLi img-rounded"><a href="#">CLIENTS</a></li>
+                        <li class="navLi img-rounded"><a href="#">CAREER</a></li>
+                        <li class="navLi img-rounded"><a href="#">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+     <div id="footerDiv" class="container-fluid" style="height: 400px; background-color: rgba(36, 35, 40, 0.9); padding: 25px 80px; color: goldenrod;">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 style="color: white;">ABS ENTERPRISE SOFTWARE
+                    </h4>
+                    <br />
+                    <p>
+                        <ul>
+                            <li>HRM</li>
+                            <li>Annuity</li>
+                            <li>Under Writing</li>
+                            <li>Aministration</li>
+                            <li>Document Manager</li>
+                            <li>Customer Manager</li>
+                            <li>Procurement</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h4 style="color: white;">SERVICES
+                    </h4>
+                    <br />
+                    <p>
+                        <ul>
+                            <li> Software Development </li>
+                            <li> Consultancy Services </li>
+                            <li> Training </li>
+                            <li> Hardware Maintenance </li>
+                            <li> Systems Audit</li>
+                            
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h4 style="color: white;">Our Contact
+                    </h4>
+                    <br />
+                    <p>
+                        <span>8th Floor Custodian House,<br />
+                            16, Commercial Avenuebr
+                            <br />
+                            Sabo, Yaba - Lagos.<br />
+                            Nigeria.
+                        </span>
+                    </p>
+                    <p>
+
+                        <span>
+                            <span title="Call Us" href="#" target="_blank">
+                                <i class="glyphicon glyphicon-phone"></i>
+                                +234-802-320-6554
+                                &nbsp;&nbsp;|&nbsp;&nbsp;
+                                +234-802-458-2289
+                            &nbsp;</span>
+                        </span>
+                        <br />
+                        <br />
+                        <span>
+                            <a title="Send Us A Mail" href="mailto:contact@afrikcomputers.com" target="_blank" style="color: goldenrod; text-decoration: none;">
+                                <i class="glyphicon glyphicon-envelope"></i>&nbsp; contact@afrikcomputers.com 
+                            </a>
+                        </span>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-default navbar-bottom" style="background-color: goldenrod !important; margin-bottom: 0 !important; border: none !important; border-radius: 0 !important; height: auto;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#" style="margin-left: 30px; height: 100px!important;">
+                        <%--<img src="images/logo.fw1.fw.png" />--%>
+                    </a>
+                </div>
+                <div style="height: auto !important; padding: 25px;">
+                    <ul class="nav navbar-nav navbar-right" style="margin-right: 30px;">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;Admin</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon glyphicon-envelope"></span>&nbsp;Mail</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right" style="margin-right: 60px;">
+                        <li class="navLi img-rounded"><a href="Default.aspx">HOME</a></li>
+                        <li class="navLi img-rounded"><a href="aboutus.aspx" >ABOUT US</a></li>
+                        <li class="navLi img-rounded"><a href="products.aspx">PRODUCTS</a></li>
+                        <li class="navLi img-rounded"><a href="#">CLIENTS</a></li>
+                        <li class="navLi img-rounded"><a href="#">CAREER</a></li>
+                        <li class="navLi img-rounded"><a href="#">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </form>
+
+
+</body>
+</html>
+

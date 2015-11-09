@@ -78,10 +78,12 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="aboutus.aspx" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\full-slider.css" />
     <Content Include="css\StyleSheet1.css" />
+    <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\abs1.jpg" />
     <Content Include="images\absEnt.png" />
@@ -102,13 +104,14 @@
     <Content Include="images\twitter2.png" />
     <Content Include="images\woman1.jpg" />
     <Content Include="images\woman2.jpg" />
-    <Content Include="Default.aspx" />
+    <Content Include="Default1.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\JavaScript1.js" />
     <Content Include="js\jquery.js" />
     <Content Include="js\jquery.lazyloadxt.js" />
     <Content Include="js\jquery.mobile.subpage.js" />
+    <Content Include="products.aspx" />
     <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -116,11 +119,25 @@
     <Content Include="whatwedo.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="aboutus.aspx.designer.vb">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aboutus.aspx.vb">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.vb">
       <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default1.aspx.designer.vb">
+      <DependentUpon>Default1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default1.aspx.vb">
+      <DependentUpon>Default1.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -141,6 +158,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="products.aspx.designer.vb">
+      <DependentUpon>products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products.aspx.vb">
+      <DependentUpon>products.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="whatwedo.aspx.designer.vb">
       <DependentUpon>whatwedo.aspx</DependentUpon>
@@ -172,6 +203,7 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
