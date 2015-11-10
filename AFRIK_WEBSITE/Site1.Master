@@ -78,8 +78,8 @@
                         <li class="navLi img-rounded"><a href="Default.aspx">HOME</a></li>
                         <li class="navLi img-rounded"><a href="aboutus.aspx">ABOUT US</a></li>
                         <li class="navLi img-rounded"><a href="products.aspx">PRODUCTS</a></li>
-                        <li class="navLi img-rounded"><a href="#">CLIENTS</a></li>
-                        <li class="navLi img-rounded"><a href="#">CAREER</a></li>
+                       <%-- <li class="navLi img-rounded"><a href="#">CLIENTS</a></li>
+                        <li class="navLi img-rounded"><a href="#">CAREER</a></li>--%>
                         <li class="navLi img-rounded"><a href="#">CONTACT US</a></li>
                     </ul>
                 </div>
@@ -119,6 +119,26 @@
 
                         </ul>
                     </p>
+                    <br />
+                    <p>
+                        <h4 style="color: white;">SUPPORT</h4>
+                        <span>
+                            <span title="Call Us">
+                                <i class="glyphicon glyphicon-phone"></i>
+                                +234-802-320-6554
+                                &nbsp;&nbsp;|&nbsp;&nbsp;
+                                +234-802-458-2289
+                            &nbsp;</span>
+                        </span>
+                        <br />
+                        <br />
+                        <span>
+                            <%--mailto:info@afrikcomputers.com--%>
+                            <a title="Send Us A Mail" href="#" target="_blank" style="color: goldenrod; text-decoration: none;">
+                                <i class="glyphicon glyphicon-envelope"></i>&nbsp; support@afrikcomputers.com 
+                            </a>
+                        </span>
+                    </p>
                 </div>
                 <div class="col-md-4">
                     <h4 style="color: white;">Our Contact
@@ -136,7 +156,7 @@
                     <p>
 
                         <span>
-                            <span title="Call Us" href="#" target="_blank">
+                            <span title="Call Us">
                                 <i class="glyphicon glyphicon-phone"></i>
                                 +234-802-320-6554
                                 &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -174,8 +194,8 @@
                         <li class="navLi img-rounded"><a href="Default.aspx">HOME</a></li>
                         <li class="navLi img-rounded"><a href="aboutus.aspx">ABOUT US</a></li>
                         <li class="navLi img-rounded"><a href="products.aspx">PRODUCTS</a></li>
-                        <li class="navLi img-rounded"><a href="#">CLIENTS</a></li>
-                        <li class="navLi img-rounded"><a href="#">CAREER</a></li>
+                       <%-- <li class="navLi img-rounded"><a href="#">CLIENTS</a></li>
+                        <li class="navLi img-rounded"><a href="#">CAREER</a></li>--%>
                         <li class="navLi img-rounded"><a href="#">CONTACT US</a></li>
                     </ul>
                 </div>

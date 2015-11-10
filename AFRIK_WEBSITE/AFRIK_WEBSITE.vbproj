@@ -97,6 +97,8 @@
     <Content Include="images\linkedin24.png" />
     <Content Include="images\logo.fw1.fw.png" />
     <Content Include="images\logo95.png" />
+    <Content Include="images\product1.fw.png" />
+    <Content Include="images\product2.fw.png" />
     <Content Include="images\skype.png" />
     <Content Include="images\slide1.jpg" />
     <Content Include="images\slide2.jpg" />
