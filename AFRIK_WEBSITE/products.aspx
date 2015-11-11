@@ -8,7 +8,7 @@
     </div>
     <div class="container">
         <div class="row" style="margin-top: 20px;">
-                <h1 style="margin-bottom: 10px;">Products :: ABS Enterprise Software</h1>
+            <h1 style="margin-bottom: 10px;">Products :: ABS Enterprise Software</h1>
             <div class="col-md-12" style="text-align: justify;">
                 <img src="images/absEnt.png" alt="" align="left" width="200px" height="auto" style="margin-right: 20px;" />
                 <span>Our flagship product is known as ABS ENTERPRISE SOFTWARE. 
@@ -31,8 +31,8 @@
 
             </div>
         </div>
-        
-        <div class="row" style="margin: 80px 0 40px; ">
+
+        <div class="row" style="margin: 80px 0 40px;">
             <div class="col-md-12 " align="center">
                 <div style="font-size: 20pt; font-weight: bold; font-family: 'Century Gothic'; padding: 10px 20px; background-color: lightgray; color: #000;">
                     ABS LIFE
@@ -51,20 +51,20 @@
 
             </div>
         </div>
-        
+
         <div class="row" style="margin: 0 10px 20px;">
             <div class="col-md-6 productImgDiv">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
-                <h4>GROUP LIFE</h4>
+                <h4>ANNUITY</h4>
             </div>
             <div class="col-md-6 productImgDiv">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>INDIVIDUAL LIFE</h4>
             </div>
         </div>
-        
-        
-         <div class="row" style="margin: 80px 0 40px; ">
+
+
+        <div class="row" style="margin: 80px 0 40px;">
             <div class="col-md-12 " align="center">
                 <div style="font-size: 20pt; font-weight: bold; font-family: 'Century Gothic'; padding: 10px 20px; background-color: lightgray; color: #000;">
                     ABS OFFICE
@@ -72,10 +72,12 @@
             </div>
         </div>
         <div class="row" style="margin: 0 10px 20px;">
-            <div class="col-md-6 productImgDiv">
+            <div class="col-md-6 productImgDiv" style="text-align: justify;">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>GENERAL LEDGER</h4>
-
+                <span>ABS GENERAL LEDGER records and processes all the accounts for transactions relating to a company's assets, 
+                    liabilities, owners' equity, revenue, and expenses.
+                </span>
             </div>
             <div class="col-md-6 productImgDiv">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
@@ -83,40 +85,57 @@
 
             </div>
         </div>
-        
+
         <div class="row" style="margin: 0 10px 20px;">
-            <div class="col-md-6 productImgDiv">
+            <div class="col-md-6 productImgDiv" style="text-align: justify;">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>EXPENSE MANAGER</h4>
+                <span>ABS Expense manager helps to process, pay, and audit employee-initiated expenses. 
+                    This includes the policies and procedures related to spending, processes and analysis associated with it.
+                </span>
             </div>
             <div class="col-md-6 productImgDiv">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>INVENTORY CONTROL</h4>
             </div>
         </div>
-        
-         <div class="row" style="margin: 0 10px 20px;">
-            <div class="col-md-6 productImgDiv">
+
+        <div class="row" style="margin: 0 10px 20px;">
+            <div class="col-md-6 productImgDiv" style="text-align: justify;">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
-                <h4>FIXED ASSET</h4>
+                <h4>FIXED ASSETS MANAGEMENT</h4>
+                <span>Tracking assets is an important concern of every company, regardless of size.
+                    ABS Fixed assets management is an accounting process that seeks to track fixed assets 
+                    for the purposes of financial accounting, preventive maintenance, and theft deterrence.
+                </span>
             </div>
             <div class="col-md-6 productImgDiv">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>INVESTMENT MANAGEMENT</h4>
             </div>
         </div>
-        
-         <div class="row" style="margin: 0 10px 20px;">
-            <div class="col-md-6 productImgDiv">
+
+        <div class="row" style="margin: 0 10px 20px;">
+            <div class="col-md-6 productImgDiv" style="text-align: justify;">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>CUSTOMER RELATION MANAGEMENT</h4>
+                <span>ABS Customer Relationship Management (CRM) manages company’s interaction with current and future customers. 
+                    It organize, automate, and synchronize sales, marketing, 
+                    customer service, and technical support.
+
+                </span>
             </div>
-            <div class="col-md-6 productImgDiv">
+            <div class="col-md-6 productImgDiv" style="text-align: justify;">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>DOCUMENT MANAGER</h4>
+                <span>ABS Document Management System (DMS) is a system based module to manage documents digitally. 
+                    It tracks, manage and store documents and reduce paper. 
+                    Its capable of keeping a record of the various versions created and 
+                    modified by different users (history tracking). 
+                </span>
             </div>
         </div>
-        
+
 
     </div>
 </asp:Content>
