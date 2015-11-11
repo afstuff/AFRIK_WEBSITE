@@ -75,7 +75,7 @@
             <div class="col-md-6 productImgDiv" style="text-align: justify;">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>GENERAL LEDGER</h4>
-                <span>ABS GENERAL LEDGER records and processes all the accounts for transactions relating to a company's assets, 
+                <span>ABS GENERAL LEDGER records and processes all the accounts for transactions relating to the company's assets, 
                     liabilities, owners' equity, revenue, and expenses.
                 </span>
             </div>
