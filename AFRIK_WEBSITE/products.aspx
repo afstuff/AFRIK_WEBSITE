@@ -109,9 +109,11 @@
                     for the purposes of financial accounting, preventive maintenance, and theft deterrence.
                 </span>
             </div>
-            <div class="col-md-6 productImgDiv">
+            <div class="col-md-6 productImgDiv" style="text-align: justify;">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>INVESTMENT MANAGEMENT</h4>
+                
+
             </div>
         </div>
 

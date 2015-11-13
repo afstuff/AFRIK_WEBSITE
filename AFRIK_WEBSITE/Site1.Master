@@ -23,21 +23,21 @@
                 <div class="col-md-12 col-lg-12 topHeaderDiv">
                     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 pull-left">
                         <div class="social-icons">
-                            <span><a title="Facebook" href="#" target="_blank">
+                            <span><a title="Facebook" href="https://facebook.com/afrikcomputerslimited" target="_blank">
                                 <img src="images/facebook1.png" class="soacialLogo" />
                             </a></span>
                             <span><a title="Google Plus" href="#" target="_blank">
                                 <img src="images/google116.png" class="soacialLogo" />
                             </a></span>
-                            <span><a title="Twitter" href="#" target="_blank">
+                            <span><a title="Twitter" href="https://twitter.com/infoAfrik" target="_blank">
                                 <img src="images/logo95.png" class="soacialLogo" />
                             </a></span>
-                            <span><a title="Linkedin" href="#" target="_blank">
+                           <%-- <span><a title="Linkedin" href="#" target="_blank">
                                 <img src="images/linkedin10.png" class="soacialLogo" />
                             </a></span>
                             <span><a title="Skype" href="skype:#">
                                 <img src="images/socialnetwork248.png" class="soacialLogo" />
-                            </a></span>
+                            </a></span>--%>
                             <%-- <span class="last"><a href="#" data-original-title="BBM PIN: #"></a></span>--%>
                         </div>
                         <!-- end social icons -->
@@ -46,11 +46,11 @@
                     <div class="col-lg-6 col-md-5 col-sm-6 col-xs-12 pull-right small">
                         <div class="social-icons">
                             <span><a title="Call Us" href="#" target="_blank">&nbsp;
-                                <i class="glyphicon glyphicon-phone"></i>+234-802-320-6554 &nbsp;&nbsp;&nbsp;&nbsp; +234-802-458-2289
+                                <i class="glyphicon glyphicon-phone"></i>+234-802-320-6554 &nbsp;&nbsp;&nbsp;&nbsp; +234-802-394-4062
                             &nbsp;</a></span>
                             &nbsp;&nbsp;&nbsp;&nbsp;
                             <span><a title="Send Us A Mail" href="#" target="_blank">&nbsp;&nbsp;&nbsp;
-                               &nbsp; <i class="glyphicon glyphicon-envelope"></i>contact@afrikcomputers.com 
+                               &nbsp; <i class="glyphicon glyphicon-envelope"></i>info@afrikcomputers.com 
                             &nbsp;</a></span>
 
                         </div>
@@ -80,7 +80,7 @@
                         <li class="navLi img-rounded"><a href="products.aspx">PRODUCTS</a></li>
                        <%-- <li class="navLi img-rounded"><a href="#">CLIENTS</a></li>
                         <li class="navLi img-rounded"><a href="#">CAREER</a></li>--%>
-                        <li class="navLi img-rounded"><a href="#">CONTACT US</a></li>
+                        <li class="navLi img-rounded"><a href="#footerDiv">CONTACT US</a></li>
                     </ul>
                 </div>
             </div>
@@ -135,7 +135,7 @@
                         <span>
                             <%--mailto:info@afrikcomputers.com--%>
                             <a title="Send Us A Mail" href="#" target="_blank" style="color: goldenrod; text-decoration: none;">
-                                <i class="glyphicon glyphicon-envelope"></i>&nbsp; support@afrikcomputers.com 
+                                <i class="glyphicon glyphicon-envelope"></i>&nbsp; info@afrikcomputers.com 
                             </a>
                         </span>
                     </p>
@@ -160,7 +160,7 @@
                                 <i class="glyphicon glyphicon-phone"></i>
                                 +234-802-320-6554
                                 &nbsp;&nbsp;|&nbsp;&nbsp;
-                                +234-802-458-2289
+                                +234-802-394-4062
                             &nbsp;</span>
                         </span>
                         <br />
@@ -196,7 +196,7 @@
                         <li class="navLi img-rounded"><a href="products.aspx">PRODUCTS</a></li>
                        <%-- <li class="navLi img-rounded"><a href="#">CLIENTS</a></li>
                         <li class="navLi img-rounded"><a href="#">CAREER</a></li>--%>
-                        <li class="navLi img-rounded"><a href="#">CONTACT US</a></li>
+                        <li class="navLi img-rounded"><a href="#footerDiv">CONTACT US</a></li>
                     </ul>
                 </div>
             </div>
