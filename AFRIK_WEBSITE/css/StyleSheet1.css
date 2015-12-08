@@ -111,3 +111,21 @@ html > /**/ body .nav.navbar-nav.navbar-right li a {
 
 
 }
+
+
+.productImgDivOffset {
+    /*margin-right: 10px;
+    margin-left: 10px;*/
+    width: 48%;
+    padding: 10px;
+    position: relative;
+    border: solid 1pt lightgray;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 1px 2px 5px #dbdbdb;
+    -webkit-box-shadow: 1px 2px 5px #dbdbdb;
+    box-shadow: 1px 2px 5px #dbdbdb;
+
+
+}

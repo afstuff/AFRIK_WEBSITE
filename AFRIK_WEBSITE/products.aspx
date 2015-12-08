@@ -43,24 +43,30 @@
             <div class="col-md-6 productImgDiv">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>GROUP LIFE</h4>
+               ABS GROUP LIFE manages contracts, group policies and policy holders ensuring seamless business flow and delivery.
 
             </div>
             <div class="col-md-6 productImgDiv">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>INDIVIDUAL LIFE</h4>
+               ABS INDIVIDUAL LIFE manages contracts, individual policies and policy holders ensuring seamless business flow and delivery.
 
             </div>
         </div>
 
         <div class="row" style="margin: 0 10px 20px;">
-            <div class="col-md-6 productImgDiv">
+            <div class="col-md-6 col-md-offset-3 productImgDivOffset">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>ANNUITY</h4>
+               The system manages policies issued allowing you to save money for retirement. 
+                The money you pay in can be either a lump sum or a number of payments. 
+                <%--These contributions then earn interest, generally tax-deferred, and after a period of time, provide you with a stream of income--%>
             </div>
-            <div class="col-md-6 productImgDiv">
+           <%-- <div class="col-md-6 productImgDiv">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>INDIVIDUAL LIFE</h4>
-            </div>
+
+            </div>--%>
         </div>
 
 
@@ -82,7 +88,7 @@
             <div class="col-md-6 productImgDiv">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>PAYABLE/RECIEVABLE</h4>
-
+                The system manages the company's outstanding debts, or liabilities, to vendors for purchases of goods and services made.
             </div>
         </div>
 
@@ -97,6 +103,9 @@
             <div class="col-md-6 productImgDiv">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>INVENTORY CONTROL</h4>
+                Inventory control system maintain a proper merchandise assortment and related costs are kept in check. 
+                It also processes inventory requirements, set targets, provide replenishment techniques. 
+                <%--report actual and projected inventory status and handle all functions related to the tracking and management of material.--%> 
             </div>
         </div>
 
@@ -112,7 +121,7 @@
             <div class="col-md-6 productImgDiv" style="text-align: justify;">
                 <img src="images/absEnt.png" alt="" align="left" width="100px" height="auto" style="margin-right: 50px;" />
                 <h4>INVESTMENT MANAGEMENT</h4>
-                
+                ABS investment manager, manages asset of various securities (shares, bonds and other securities) and other assets (e.g., real estate) in order to meet specified investment goals for the benefit of the investors.
 
             </div>
         </div>
